@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,42 @@
     transform: rotate(360deg);
   }
 }
+#leftdiv{
+  border:1px solid red;
+  width:20%;
+  margin-left: 25%;
+  margin-top: 10%;
+  }
+#leftdiv div{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 1vw;
+}
+span{
+  text-align: center;
+  width: 5vw;
+ 
+}
+#Rightdiv{
+  border:1px solid green;
+  width:20%;
+ height: 60vh;
+ margin-top: 10%;
+
+}
+#Rightdiv div{
+  display: flex;
+  justify-content: space-between;
+ margin-top: 1vw;
+}
+ #Rightdivspan{
+text-align: center;
+width: 5vw;
+
+}
+#average{
+  margin-top: 10%;
+}
+
+
+
